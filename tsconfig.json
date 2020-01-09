@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "angular-military-clock": [
+        "dist/angular-military-clock"
+      ],
+      "angular-military-clock/*": [
+        "dist/angular-military-clock/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
