@@ -1,3 +1,4 @@
-<div class="clock">
-  {{hours}}:{{minutes}}:{{seconds}}
-</div>
+<span class="status-period">
+  <span *ngIf="isSecond">{{hours}}:{{minutes}}:{{seconds}}</span>
+  <span *ngIf="!isSecond">{{hours}}:{{minutes}}</span>
+</span>
