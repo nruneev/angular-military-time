@@ -2,23 +2,21 @@
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.14.
 
-## Code scaffolding
+>For install: `npm i lib-military-time`
 
-Run `ng generate component component-name --project angular-military-clock` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project angular-military-clock`.
-> Note: Don't forget to add `--project angular-military-clock` or else it will be added to the default project in your `angular.json` file. 
+## About package
 
-## Build
+This package allow you add clock on your web-application. For add clock use tag `nr-military-time`.
 
-Run `ng build angular-military-clock` to build the project. The build artifacts will be stored in the `dist/` directory.
+This Component input one variable:
+ * `isSecond` - will be display or not. You can set `true` or `false` value. Basic is `false`.
 
-## Publishing
+##Style
 
-After building your library with `ng build angular-military-clock`, go to the dist folder `cd dist/angular-military-clock` and run `npm publish`.
+You can add background-color and set color for text. For this, use on your style's file:
+* `--nr-military-time-bg` for set background;
+* `--nr-military-time-color` for set font color.
 
-## Running unit tests
+##Example for use
 
-Run `ng test angular-military-clock` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+`<nr-military-time isSecont="true""></nr-military-time>` or `<nr-military-time></nr-military-time>`
